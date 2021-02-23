@@ -41,7 +41,7 @@ body{
   font-size: 1.5rem;
   color: #00fff0;
   position: absolute;
-  bottom: 0;
+  bottom: -25px;
   left: 50%;
 }
 .icon{
