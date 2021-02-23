@@ -47,9 +47,10 @@ body{
 .icon{
   color: #00fff0;
   position: absolute;
-  bottom: 50px;
+  bottom: 20px;
   left: 53%;
-  animation: 1s move infinite ;
+  cursor: pointer;
+  /* animation: 1s move infinite ; */
 }
 @keyframes move{
   0%{
@@ -249,7 +250,7 @@ a:hover{
 }
 .mask{
   position: absolute;
-  background: rgba(17, 17, 17, .5);
+  background: rgba(17, 17, 17, .7);
   width: 230px;
   height: 230px;
   left: 0;
