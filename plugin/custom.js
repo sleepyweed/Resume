@@ -2,7 +2,8 @@ $(document).ready(function(){
 
   $("#myMenu a").click(function () {
     const theid = $(this).attr("href");
-    const val = $(theid).offset().top - $("#myMenu").innerHeight() + 1;
+    // const val = $(theid).offset().top - $("#myMenu").innerHeight() + 1;
+    const val = $(theid).offset().top;
     $("html").animate(
       { scrollTop: val }, 1000, "swing"
     );
