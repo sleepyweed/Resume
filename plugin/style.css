@@ -67,19 +67,19 @@ body{
   }
 /* /Top */
 
-/* OneTwoThree */
+/* OneTwoThree... */
   #one{
     height: 100vh;
     background: url('/img/moto01.png');
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
-  #two{
+  #three{
     height: 100vh;
     background: url('/img/moto02.png');
     background-position: center;
     background-size: cover;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
   }
 /* /OneTwoThree */
